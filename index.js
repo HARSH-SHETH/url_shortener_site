@@ -29,6 +29,7 @@ submit.addEventListener('click', function(){
     }
   }
   request.send("url=" + url);
+  copyUrlToClipboard();
 });
 window.onload = function(){
   urlObject = JSON.parse(localStorage.getItem('urls'));
