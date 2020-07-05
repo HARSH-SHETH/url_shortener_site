@@ -1,0 +1,300 @@
+body{
+  margin: 0px; 
+  padding: 0px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px;
+}
+section:nth-of-type(1){
+  background-image: url('./images/illustration-working.svg');
+  background-repeat:no-repeat;
+  background-size: 600px;
+  background-position: 850px 90px;
+  height: 564px;
+}
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%; 
+  margin: 40px auto;
+}
+#brandName{
+  font-size: 2rem;
+  position: relative; 
+  top: 3px;
+  font-weight: 700;
+}
+.navbar a{
+  margin-left: 30px;
+  text-decoration: none;
+  color: hsl(257, 7%, 63%);
+  font-weight: 700;
+}
+.navbar a:hover{
+  color: hsl(260, 8%, 14%);
+}
+#SignUp{
+  background: hsl(180, 66%, 49%);
+  padding: 5px 20px;
+  color: white;
+  border-radius: 25px;
+}
+#SignUp:hover{
+  background: #9be2e1;
+}
+.intro{
+  width: 80%; 
+  margin: 100px auto;
+}
+.intro h1{
+  font-size: 4rem;
+  margin-bottom: 0px; 
+  line-height: 1.1;
+}
+.intro p{
+  margin-top: 3px;
+  color: hsl(257, 7%, 63%);
+}
+.intro button{
+  background: hsl(180, 66%, 49%);
+  font-weight: 700;
+  padding: 10px;
+  width: 158px;
+  height: 43px;
+  color: white;
+  border: none;
+  border-radius: 25px;
+}
+.intro button:hover{
+  background: #9be2e1;
+}
+#form{
+  display: flex;
+  align-items: center;
+  position: absolute;
+  top: 545px;
+  left: 136px;
+  z-index: 1;
+  width: 80%;
+  height: 120px;
+  margin: 0 auto; 
+  background-image: url('./images/bg-shorten-desktop.svg');
+  background-size: cover; 
+  background-repeat: no-repeat;
+  background-color: hsl(257, 27%, 26%);
+  border-radius: 10px;
+}
+form{
+  width: 100%; 
+  text-align: center;
+}
+input[type="text"]{
+  width: 53%; 
+  height: 44px; 
+  margin-right: 50px; 
+  padding-left: 20px; 
+  border-radius: 10px;
+  border: 2px solid hsl(0, 87%, 67%);
+  font-size: 18px;
+}
+input[type="text"]::placeholder{
+  font-size: 18px;
+  color: pink;
+  font-weight: 700;
+}
+#submit{
+  font-weight: 700;
+  font-size: 18px;
+  width: 14%; 
+  height: 46px;
+  color: white;
+  border-radius: 10px;
+  border: none;
+  background: hsl(180, 66%, 49%);
+}
+#submit:hover{
+ background: #9be2e1;
+}
+section:nth-of-type(2){
+  background: #f0f1f6;
+  overflow: hidden;
+}
+section header{
+  text-align: center;
+}
+.center{
+  width: 80%; 
+  margin: 0 auto;
+}
+.center h1{
+  margin-top: 175px;
+  font-size: 2rem;
+  color: hsl(260, 8%, 14%);
+}
+.center p{
+  color: hsl(257, 7%, 63%);
+  font-size: 1rem;
+  margin-bottom: 30px;
+}
+.cards{
+  display: flex;
+  height: 343px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.cards div{
+  background: white;
+  width: 120%;
+  padding: 0px 20px;
+  border-radius: 5px;
+}
+.cards div:first-child{
+  align-self: start; 
+}
+.cards div:nth-of-type(2){
+  align-self: center;
+}
+.cards div:last-child{
+  align-self: flex-end;
+}
+.cards div > span{
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background: hsl(255, 11%, 22%);
+  width: 80px; 
+  height: 80px;
+  border-radius: 50%;
+  position: relative;
+  bottom: 36px;
+}
+
+
+.CyanBar{
+  width: 130px; 
+  height: 8px; 
+  background: hsl(180, 66%, 49%);
+  position: relative; 
+  top: 150px;
+}
+h3{
+  margin-top: 0px;
+}
+/*====================*/
+section:nth-of-type(3){
+  position: relative;
+  bottom: 23px;
+  background: hsl(257, 27%, 26%);
+  background-image: url('./images/bg-boost-desktop.svg');
+  background-repeat: no-repeat; 
+  background-size: cover;
+  height: 230px;
+  text-align: center;
+  color: white;
+  overflow: hidden;
+}
+section:nth-of-type(3) button{
+  background: hsl(180, 66%, 49%);
+  font-weight: 700;
+  font-size: 18px;
+  padding: 10px;
+  width: 158px;
+  height: 43px;
+  color: white;
+  border: none;
+  border-radius: 25px;
+}
+section:nth-of-type(3) button:hover{
+  background: #9be2e1;
+}
+section:nth-of-type(3) h1{
+  margin-top: 60px; 
+  font-size: 2rem; 
+  margin-bottom: 20px;
+}
+/*==========================*/
+section:nth-of-type(4){
+  background: hsl(260, 8%, 14%);
+  position: relative; 
+  bottom: 23px;
+  overflow: hidden;
+}
+#Center{
+  display: flex; 
+  justify-content: space-between;
+  width: 80%; 
+  margin: 70px auto;
+}
+#Center h1{
+  color: white;
+  margin-top: 0px;
+}
+#columns{
+  display: flex; 
+  width: 66%;
+  justify-content: space-between;
+}
+#columns div{
+  display: flex; 
+}
+.info{
+  flex-direction: column;
+}
+.info span:first-child{
+  color: white;
+  margin-bottom: 20px;
+}
+.info span:first-child:hover{
+  color: white;
+}
+.info span{
+  margin-bottom: 10px;
+  color: hsl(257, 7%, 63%);
+}
+.info span:hover{
+  color: hsl(180, 66%, 49%);
+}
+#social{
+  flex-direction: row;
+  align-items: baseline;
+}
+#social img{
+  margin-left: 20px;
+}
+/*=========URL LIST CSS===============*/
+#urlList{
+  position: relative; 
+  top: 85px;
+  width: 80%; 
+  margin: 0 auto; 
+}
+.urlListBox{
+  display: flex;
+  background: white;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+.urlListBox > p{
+  margin-left: 20px;
+}
+.urlListBox div{
+  display: flex; 
+  justify-content: space-between; 
+  align-items: center;
+  width: 33%;
+  margin-right: 20px;
+}
+.urlListBox button{
+  width: 23%; 
+  height: 51%;
+  color: white;
+  background: hsl(180, 66%, 49%);
+  border: none;
+  border-radius: 5px;
+  font-weight: 700;
+}
+.urlListBox div p{
+  color: hsl(180, 66%, 49%);
+}
+
